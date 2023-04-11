@@ -1,10 +1,10 @@
 import React from 'react'
 import './sidebar.css'
 import HomeIcon from '@mui/icons-material/Home';
-import AppsIcon from '@mui/icons-material/Apps';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import ReportProblemIcon from '@mui/icons-material/ReportProblem';
+import MessageIcon from '@mui/icons-material/Message';
 
 export default function sidebar(){
     return <div className="sidebar">
@@ -16,21 +16,17 @@ export default function sidebar(){
                         <HomeIcon />
                         Home
                         </li>
-                    <li className="sidebarListItem">
-                        <AppsIcon />
-                        menu
-                        </li>
                  
                 </ul>
-                <h3 className="sidebarTitle">Quick</h3>
+                <h3 className="sidebarTitle">Menu</h3>
                 <ul className="sidebarList">
                 <li className="sidebarListItem">
                         <DirectionsCarIcon />
-                        car
+                        Car
                         </li>
                     <li className="sidebarListItem">
                         <PermIdentityIcon />
-                        user
+                        User
                         </li>
                     </ul>
 
@@ -38,9 +34,14 @@ export default function sidebar(){
                 <ul className="sidebarList">
                 <li className="sidebarListItem">
                         <ReportProblemIcon />
-                        report
+                        Report
+                        </li>
+                        <li className="sidebarListItem">
+                        <MessageIcon />
+                        Messages
                         </li>
                     </ul>
+
             </div>
         </div>
     </div>
