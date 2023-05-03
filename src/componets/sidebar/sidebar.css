@@ -1,5 +1,5 @@
 .sidebar {
-    flex : 1;
+    flex : flex;
     height: calc(100vh - 50px);
     background-color: rgb(240, 239, 239);
 

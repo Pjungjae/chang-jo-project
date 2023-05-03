@@ -1,22 +1,16 @@
 import React from 'react'
 import './user.css'
 import { CalendarToday, PhoneIphone } from '@mui/icons-material'
-
+import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 export default function User(){
     return(
         <div className="user">
             <div className="UserTitleContainer">
                 <h1 className="userTitle">Edit User</h1>
-                <button className="userAddButton">Create</button>
             </div>
             <div className="userContainer">
                 <div className="userShow">
                     <div className ="uesrShowToP">
-                        <img
-                        src="../img/R.jpg"
-                        alt=""
-                        className="userShowImg"
-                        />
                         <div className="userShowTopTitle">
                             <span className="userShowUsername">박정재</span>
                             <div></div>
@@ -37,9 +31,14 @@ export default function User(){
                             <PhoneIphone className="userShowIcon"/>
                             <span className="userShowInfoTitle">010 1234 3914</span>
                         </div>
+                        <div className='userShowInfo'>
+                            <DirectionsCarIcon className="userShowIcon"/>
+                            <span className="userShowInfoTitle">34두 1232</span>
+                        </div>
                     </div>
                 </div>
-                <div className="userUpdate">
+                <div className="userUpdate"> 
+               
                     <span className="userUpdateTitel">Edit</span>
                     <form className="userUpdateForm">
                         <div className="userUpdateLeft">
@@ -50,8 +49,32 @@ export default function User(){
                                 placeholder="wjdwo3914"
                                 className="userUpdateInput"
                                 />
-                            </div>
-                            
+                                </div>
+                                <div className="userUpdateItem">
+                                <label>Date</label>
+                                <input
+                                type="text"
+                                placeholder="25.05.1999"
+                                className="userUpdateInput"
+                                />
+                                </div>
+                                <div className="userUpdateItem">
+                                <label>Phone</label>
+                                <input
+                                type="text"
+                                placeholder="010 1234 1234"
+                                className="userUpdateInput"
+                                />
+                                </div>
+                                <div className="userUpdateItem">
+                                <label>Car Num</label>
+                                <input
+                                type="text"
+                                placeholder="34두 1232"
+                                className="userUpdateInput"
+                                />
+                                 </div>
+                                 <button className="userEditButton">Edit</button>
                         </div>
                     </form>
                 </div>

@@ -10,3 +10,12 @@ export const userRows = [
     { id: 5222337, name: '권순정', title: '컴공', age: 33, num:6995 },
     { id: 15126327, name: '네네넴', title: '컴공', age: 31, num:9994 },
 ]
+
+export const reportRows = [
+    { id: 1, name: '박정재', title: '컴공', CarNum: 1231 , message: '저놈이 그랬어요'},
+    { id: 2, name: '김제재', title: '컴공', CarNum: 5551 , message: '이놈이 그랬어요'},
+    { id: 3, name: '수수재', title: '컴공', CarNum: 1211 , message: '그놈이 그랬어요'},
+    { id: 4, name: '하수재', title: '목공', CarNum: 8551 , message: '요놈이 그랬어요'},
+    { id: 5, name: '헤지재', title: '수공', CarNum: 6231 , message: '상놈이 그랬어요'},
+    { id: 6, name: '세지재', title: '컴공', CarNum: 7431 , message: '한놈이 그랬어요'},
+]

@@ -9,16 +9,7 @@
     justify-content : space-between;
 }
 
-.userAddButton{
-    width:80px;
-    border:none;
-    padding:5px;
-    background-color: teal;
-    border-radius:5px;
-    cursor:pointer;
-    color:white;
-    font-size: 16px;
-}
+
 
 .userContainer{
     display:flex;
@@ -93,4 +84,22 @@
 
 .userShowInfoTitle{
     margin-left: 10px;
+}
+
+.userUpdateItem{
+    display:flex;
+    align-items: center;
+    margin:20px 0px;
+    color:rgb(97,96,96);
+}
+
+.userEditButton{
+    width:80px;
+    border:none;
+    padding:5px;
+    background-color: blue;
+    border-radius:5px;
+    cursor:pointer;
+    color:white;
+    font-size: 16px;
 }
